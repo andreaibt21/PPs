@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "restaurante",
+    "slug": "restaurante",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGOS/logosimple.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashG.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EFDFA8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andrea.restaurante"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LOGOS/logosimple.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_INTERNAL_STORAGE",
+        "WRITE_INTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.andrea.restaurante"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "myapp"
+  }
+}
